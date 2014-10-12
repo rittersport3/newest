@@ -332,24 +332,23 @@ LINK_REQUIRED = False
 # These settings are used by the default fabfile.py provided.
 # Check fabfile.py for defaults.
 
-# FABRIC = {
-#     "SSH_USER": "pedro", # SSH username
-#     "SSH_PASS":  "998877", # SSH password (consider key-based authentication)
-#     "SSH_KEY_PATH": "/Users/pedro/.ssh/id_rsa.pub", # Local path to SSH key file, for key-based auth
-#     "HOSTS": ["104.131.77.212"], # List of hosts to deploy to
-#     "VIRTUALENV_HOME": "/home/pedro", # Absolute remote path for virtualenvs
-#     "PROJECT_NAME": "Newest", # Unique identifier for project
-#     "REQUIREMENTS_PATH": "requirements.txt", # Path to pip requirements, relative to project
-#     "GUNICORN_PORT": 8000, # Port gunicorn will listen on
-#     "LOCALE": "en_US.UTF-8", # Should end with ".UTF-8"
-#     "LIVE_HOSTNAME": "104.131.77.212", # Host for public site.
-#     "REPO_URL": "https://github.com/rittersport3/newest.git", # Git or Mercurial remote repo URL for the project
-#     "DB_PASS": "998877", # Live database password
-#     "ADMIN_PASS": "998877", # Live admin user password
-#     "SECRET_KEY": "SECRET_KEY",
-#     "NEVERCACHE_KEY": "NEVERCACHE_KEY",
-# }
-
+FABRIC = {
+    "SSH_USER": "newest", # SSH username
+    "SSH_PASS":  "abc", # SSH password (consider key-based authentication)
+    "SSH_KEY_PATH": "/Users/pedro/.ssh/id_rsa.pub", # Local path to SSH key file, for key-based auth
+    "HOSTS": ["104.131.77.212"], # List of hosts to deploy to
+    "VIRTUALENV_HOME": "/home/newest", # Absolute remote path for virtualenvs
+    "PROJECT_NAME": "newest", # Unique identifier for project
+    "REQUIREMENTS_PATH": "requirements.txt", # Path to pip requirements, relative to project
+    "GUNICORN_PORT": 8000, # Port gunicorn will listen on
+    "LOCALE": "en_US.UTF-8", # Should end with ".UTF-8"
+    "LIVE_HOSTNAME": "nwst.me", # Host for public site.
+    "REPO_URL": "https://github.com/rittersport3/newest.git", # Git or Mercurial remote repo URL for the project
+    "DB_PASS": "abc", # Live database password
+    "ADMIN_PASS": "abc", # Live admin user password
+    "SECRET_KEY": SECRET_KEY,
+    "NEVERCACHE_KEY": NEVERCACHE_KEY,
+}
 
 
 ##################
