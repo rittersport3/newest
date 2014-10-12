@@ -1,5 +1,5 @@
 from __future__ import absolute_import, unicode_literals
-
+import os
 ######################
 # MEZZANINE SETTINGS #
 ######################
@@ -110,12 +110,16 @@ USE_TZ = True
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = "pt"
+LANGUAGE_CODE = "pt-br"
 
 # Supported languages
 _ = lambda s: s
 LANGUAGES = (
-    ('pt', _('Portuguese')),
+    ('pt-br', _('Portuguese')),
+)
+
+LOCALE_PATHS = (
+                (os.path.join(BASE_DIR, u'locale/pt_BR')),
 )
 
 # A boolean that turns on/off debug mode. When set to ``True``, stack traces
