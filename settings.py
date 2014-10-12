@@ -332,6 +332,13 @@ LINK_REQUIRED = False
 # These settings are used by the default fabfile.py provided.
 # Check fabfile.py for defaults.
 
+SECRET_KEY =\
+    "a32073c9-ad31-4aae-a9e6-d1dd25805682f3b79f79-673b-4be0-9d92-c1f5a2d9934cbcf57815-d7dc-4c57-9119-776a03c75d6d"
+
+NEVERCACHE_KEY =\
+    "66935fbe-5335-4c43-b4b9-e0794a60510e04e76caf-eaac-4770-8dbf-b499bb3354c15e23501f-2480-4542-b94f-0aa2e476f288"
+
+
 FABRIC = {
     "SSH_USER": "newest", # SSH username
     "SSH_PASS":  "abc", # SSH password (consider key-based authentication)
