@@ -35,4 +35,4 @@ CACHES = {
 }
 
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
-ALLOWED_HOSTS = ['104.131.77.212']
+ALLOWED_HOSTS = ['104.131.77.212', 'nwst.me']

@@ -239,7 +239,7 @@ INSTALLED_APPS = (
     "django.contrib.sites",
     "django.contrib.sitemaps",
     "django.contrib.staticfiles",
-    "drum.links",
+    "links",
     "mezzanine.boot",
     "mezzanine.conf",
     "mezzanine.core",
