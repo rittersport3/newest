@@ -110,12 +110,12 @@ USE_TZ = True
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = "en"
+LANGUAGE_CODE = "pt"
 
 # Supported languages
 _ = lambda s: s
 LANGUAGES = (
-    ('en', _('English')),
+    ('pt', _('Portuguese')),
 )
 
 # A boolean that turns on/off debug mode. When set to ``True``, stack traces
@@ -130,7 +130,7 @@ SITE_ID = 1
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
-USE_I18N = False
+USE_I18N = True
 
 # Tuple of IP addresses, as strings, that:
 #   * See debug comments, when DEBUG is true
@@ -313,8 +313,8 @@ DEBUG_TOOLBAR_CONFIG = {"INTERCEPT_REDIRECTS": False}
 
 # Drum-specific Mezzanine settings
 AUTH_PROFILE_MODULE = "links.Profile"
-SITE_TITLE = "Drum"
-RATINGS_RANGE = (-1, 1)
+SITE_TITLE = "Newest"
+RATINGS_RANGE = (-3, 3)
 RATINGS_ACCOUNT_REQUIRED = True
 COMMENTS_ACCOUNT_REQUIRED = True
 ACCOUNTS_PROFILE_VIEWS_ENABLED = True
